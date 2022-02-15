@@ -1,3 +1,12 @@
+body{
+  background-color: #DAE3E7;
+  font-family: 'Noto Naskh Arabic', serif;
+font-family: 'Noto Sans Arabic', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+
 .App {
   text-align: center;
 }

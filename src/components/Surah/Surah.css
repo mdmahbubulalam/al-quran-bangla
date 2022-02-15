@@ -1,0 +1,52 @@
+.text{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #01AD69;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fill-space{
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+}
+
+.surah-data{
+    text-align: center;
+    background-color: #ddddff;
+}
+
+.surah-data{
+    font-weight: bold;
+    color: blue;
+}
+
+.text span {
+    font-weight: bold;
+    color: white;
+}
+
+.text-one{
+    color: #01AD69;
+    font-size: 20px;
+}
+
+.text-two{
+    color: #13696B;
+}
+
+.text-three{
+    color: #0F5354;
+}
+
+.surah{
+    white-space: pre-line;
+    text-align: right;
+    font-weight: 500;
+    font-size: 15px;
+    color: #093334;
+}
+
+
+

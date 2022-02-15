@@ -1,0 +1,88 @@
+.div-container-bg{
+    background-color: #EDF1F4;
+    margin: 0px 50px 50px 50px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    flex: 1 200px;
+}
+
+.single-card{
+    cursor: pointer;
+    background-color: #FDFDFD;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 130px;
+    width: 200px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.list-text{
+    line-height: 2px;
+    margin: 15px;
+}
+
+.single-card:hover{
+    transform: scale(1.1);
+}
+
+.list-number{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.name-text{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.translation-text {
+    color: #A3B1BE;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.english-text{
+    font-weight: 400;
+}
+
+.circle-text{
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100%;
+    padding-top: 2px;
+    text-align: center;
+    color: #01AD69;
+    background-color: #DCF2EC;
+}
+
+.revelation-type-text{
+    color: #01AD69;
+    font-weight: 500;
+}
+
+.loading-text-color{
+    color: #01AD69;
+}
+
+@media (max-width: 850px) {
+
+  .div-container-bg{
+      padding: 5px;
+      margin: 0px 5px 8px 5px;
+  }
+
+  .single-card{
+      width: 350px;
+  }
+
+  }
