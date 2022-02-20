@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer>
-            <h4 className='footer-text'>Android APK coming soon...</h4>
+            <p className='footer-text'>© {(new Date()).getFullYear()} Copyright <span style={{color:'blue'}}>Mohammad Mahbubul Alam</span>. All Rights Reserved</p>
         </footer>
     );
 };

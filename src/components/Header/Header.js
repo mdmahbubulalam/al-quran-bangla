@@ -26,6 +26,7 @@ const Header = () => {
         } 
       }
     return (
+        <>
         <div className='header'>
             <Link to='/'>
                 <img src={logo}  className="img" alt="" />
@@ -33,8 +34,9 @@ const Header = () => {
             <div className='input-box'>
                 <input type="text" className='input-field' onKeyPress={handleKeyPress}  onChange={e => setSearchValue(e.target.value)}  placeholder='Search with text' /><span className='search-btn' onClick={handleClick} onKeyPress={handleClick}><FaSearch/></span>
             </div>
-            
         </div>
+        <p className='text-center'><a href="https://drive.google.com/file/d/1C4bf8d5y4AymizNkjJk70McX8CtWLrci/view?usp=sharing" target="_blank" style={{color:'blue', textDecoration:'none'}}>Download</a> android APK</p>
+        </>
     );
 };
 

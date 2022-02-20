@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 const SearchResult = () => {
@@ -40,15 +41,18 @@ const SearchResult = () => {
         <div className='container'>
             <Header/>
             {searchResult ? 
-            <div className="row div-container-bg">
-                <div className=''>
-                    {
-                        searchResult.map(search => 
-                           <p style={{whiteSpace: 'pre-line', textAlign:'right', fontWeight:'500', fontSize:'18px'}}>{search.surah.number}:{search.numberInSurah}<br/>{search.text}</p>
-                        )
-                    }
+            <div>
+                <div className="row div-container-bg">
+                    <div className=''>
+                        {
+                            searchResult.map(search => 
+                            <p style={{whiteSpace: 'pre-line', textAlign:'right', fontWeight:'500', fontSize:'18px'}}>{search.surah.number}:{search.numberInSurah}<br/>{search.text}</p>
+                            )
+                        }
+                    </div> 
                 </div> 
-            </div> 
+                <Footer/>
+            </div>
             :
             <div class="text-center">
                 <div class="spinner-border loading-text-color" role="status"></div>
